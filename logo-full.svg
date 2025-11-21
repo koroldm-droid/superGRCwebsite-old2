@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" fill="none">
+  <!-- Logo Icon -->
+  <rect x="10" y="20" width="80" height="80" fill="#151719" rx="8"/>
+  <path d="M50 58.6L44.2 52.8H32.2L39.425 60.025L50 70.6L60.575 60.025L67.8 52.8H55.8L50 58.6Z" fill="#CFE928"/>
+  <path d="M39.425 43.575L32.2 36.35H44.2L50 42.15L55.8 36.35H67.8L60.575 43.575L67.8 50.8H55.8L50 44.975L44.2 50.8H32.2L39.425 43.575Z" fill="#CFE928"/>
+  
+  <!-- Super GRC Text -->
+  <text x="110" y="55" font-family="Pragmatica, Arial, sans-serif" font-size="32" font-weight="700" fill="#CFE928">Super GRC</text>
+  <text x="110" y="82" font-family="Pragmatica, Arial, sans-serif" font-size="14" font-weight="400" fill="#9FCFD3">Engineered for Security</text>
+</svg>

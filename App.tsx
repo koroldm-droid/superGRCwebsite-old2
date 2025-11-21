@@ -7,7 +7,6 @@ import { DemoForm } from "./components/DemoForm";
 import { SEOHead } from "./components/SEOHead";
 import { GoogleAnalytics } from "./components/GoogleAnalytics";
 import { OGImageGenerator } from "./components/OGImageGenerator";
-import footerLogo from 'figma:asset/93d4913b8b0e4dd4a103d7aaf6364783a12a86f4.png';
 
 export default function App() {
   // Check if we should show OG Image Generator using hash
@@ -50,7 +49,7 @@ export default function App() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-4 md:mb-6 flex flex-col items-center">
-              <img src={footerLogo} alt="Super GRC - Engineered for Security" className="h-24 md:h-32 mb-4" loading="lazy" />
+              <img src="/logo-full.svg" alt="Super GRC - Engineered for Security" className="h-24 md:h-32 mb-4" loading="lazy" />
             </div>
             <p className="text-[#9FCFD3] mb-4 md:mb-6 text-sm md:text-base" style={{ fontFamily: 'Pragmatica, sans-serif' }}>
               Super GRC is created by and for Cybersecurity Practitioners
