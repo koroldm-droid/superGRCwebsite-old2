@@ -1,4 +1,4 @@
-import horizontalLogo from 'figma:asset/710782100269a767693ea5131362aed950b519c0.png';
+const horizontalLogo = "/logo-full.svg";
 import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
