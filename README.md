@@ -2,6 +2,8 @@
 
 A comprehensive Risk & Compliance Platform covering 12 major feature areas including system onboarding/offboarding, asset discovery, risk management with various compliance frameworks (SOC 2, ISO, HIPAA/HITRUST, FedRAMP/NIST), and more.
 
+Trigger deploy
+
 ## 🎨 Brand Colors
 
 - **Electric Lime**: `#CFE928` - Primary accents
