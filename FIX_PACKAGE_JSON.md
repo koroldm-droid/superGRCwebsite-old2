@@ -1,3 +1,46 @@
+# 🚨 Fix package.json on GitHub
+
+## Current Error:
+```
+npm error 404 Not Found - GET https://registry.npmjs.org/@jsr%2fsupabase__supabase-js
+'@jsr/supabase__supabase-js@^2.49.8' is not in this registry.
+```
+
+---
+
+## 🎯 The Fix (30 seconds):
+
+### Step 1: Go to package.json
+**URL:** https://github.com/koroldm-droid/superGRCwebsite/blob/main/package.json
+
+### Step 2: Click "Edit" (pencil icon)
+
+### Step 3: Find the line with Supabase (around line 54)
+Look for this INCORRECT line:
+```json
+"@supabase/supabase-js": "jsr:@supabase/supabase-js@^2.49.8"
+```
+
+### Step 4: Replace with CORRECT line:
+```json
+"@supabase/supabase-js": "^2.45.0"
+```
+
+### Step 5: Commit
+- Commit message: "Fix: Use correct npm package format for Supabase"
+- Click "Commit changes"
+
+---
+
+## ✅ That's It!
+
+The `jsr:` prefix doesn't work with npm. Using the standard npm version fixes the issue.
+
+---
+
+## 📋 Full Correct package.json (if you want to replace everything):
+
+```json
 {
   "name": "supergrc",
   "version": "1.0.0",
@@ -63,3 +106,10 @@
     "eslint": "^9.9.1"
   }
 }
+```
+
+---
+
+## 🎯 After This Fix:
+
+Vercel will be able to install all packages successfully and continue with the build!
