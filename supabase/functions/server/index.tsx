@@ -3,6 +3,7 @@ import { cors } from "npm:hono/cors";
 import { logger } from "npm:hono/logger";
 import * as kv from "./kv_store.tsx";
 import { sendEmail, generateUserConfirmationEmail, generateAdminNotificationEmail } from "./email.tsx";
+import { handleGitHubUpdate } from "./github-update.tsx";
 
 const app = new Hono();
 
@@ -157,5 +158,8 @@ app.get("/make-server-101a5808/demo/submissions", async (c) => {
     }, 500);
   }
 });
+
+// GitHub file update endpoint
+app.post("/make-server-101a5808/github/update", handleGitHubUpdate);
 
 Deno.serve(app.fetch);
