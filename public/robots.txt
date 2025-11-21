@@ -1,0 +1,31 @@
+# Super GRC - Robots.txt
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://supergrc.com/sitemap.xml
+
+# Crawl-delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
+# Disallow admin/backend paths (if any in future)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Allow all images and assets
+User-agent: Googlebot-Image
+Allow: /
+
+# Allow all content for Google
+User-agent: Googlebot
+Allow: /
+
+# Allow Bing
+User-agent: Bingbot
+Allow: /
+
+# Allow all other search engines
+User-agent: *
+Allow: /

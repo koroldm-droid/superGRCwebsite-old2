@@ -1,0 +1,51 @@
+{
+  "name": "Super GRC - Cybersecurity Risk Management Platform",
+  "short_name": "Super GRC",
+  "description": "Leading cybersecurity risk management and compliance platform for enterprises. Asset discovery, risk assessment, and compliance automation.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#151719",
+  "theme_color": "#CFE928",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon-32x32.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon-16x16.svg",
+      "sizes": "16x16",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["business", "productivity", "security"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/",
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "label": "Super GRC Platform Dashboard"
+    }
+  ]
+}
