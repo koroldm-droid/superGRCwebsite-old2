@@ -12,7 +12,8 @@
  */
 
 import { useState } from 'react';
-import heroImage from 'figma:asset/52c361cdb5a207889df1a2539f7c4a6a5fc9c1c8.png';
+// Hero image for OG generator - using placeholder
+   const heroImage = "/logo-full.svg";
 
 export function OGImageGenerator() {
   const [showGuide, setShowGuide] = useState(false);
