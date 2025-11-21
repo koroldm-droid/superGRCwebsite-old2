@@ -1,5 +1,5 @@
 import { Shield, Lock, FileCheck, Sparkles } from "lucide-react";
-import wingsImage from 'figma:asset/eee5e4a4c7ecebfdb1ad5ee3f0cfe3e40233620e.png';
+// Wings decorative image - removed for deployment
 
 export function MarketingAbout() {
   return (
@@ -7,17 +7,7 @@ export function MarketingAbout() {
       id="about" 
       className="py-16 md:py-32 bg-gradient-to-b from-[#E6E6E6] to-white relative overflow-hidden"
     >
-      {/* Animated Flying Wings Background with Parallax Effect - Hidden on Mobile */}
-      <div 
-        className="hidden md:block absolute inset-0 animate-fly opacity-40"
-        style={{
-          backgroundImage: `url(${wingsImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          filter: 'blur(1px)'
-        }}
-      ></div>
+      {/* Animated Flying Wings Background removed - not needed for deployment */}
       
       {/* Gradient Overlay for Depth */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#E6E6E6]/60 to-white/95"></div>

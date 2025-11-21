@@ -1,9 +1,10 @@
 import { ArrowRight, Shield, CheckCircle2 } from "lucide-react";
 import { useState } from "react";
 import { Interactive3DOrb } from "./Interactive3DOrb";
-import dashboardImage from 'figma:asset/3e5e83d7e429ac8276f75b54164bb0937b963cab.png';
-import logoImage from 'figma:asset/9edb72c929dd34177eafe046c4cc8f06e28ed558.png';
-import superGRCLogo from 'figma:asset/b0067d28fcbb91803c9f38ebfd6c6316d2947eaa.png';
+// Images - using SVG placeholders for deployment
+const dashboardImage = "/logo-full.svg";
+const logoImage = "/logo-full.svg";
+const superGRCLogo = "/logo-full.svg";
 
 export function MarketingHero() {
   const [imagePosition, setImagePosition] = useState({ x: 50, y: 50 });

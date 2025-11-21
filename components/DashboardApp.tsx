@@ -3,7 +3,7 @@ import { Sidebar } from "./Sidebar";
 import { Dashboard } from "./Dashboard";
 import { Menu, Globe } from "lucide-react";
 import { Button } from "./ui/button";
-import logo from "figma:asset/710782100269a767693ea5131362aed950b519c0.png";
+// Logo handled by MarketingNav component
 
 export function DashboardApp() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -40,7 +40,7 @@ export function DashboardApp() {
           {/* Logo and Title Section */}
           <div className="bg-white border-b border-gray-200 px-6 py-3 flex-shrink-0">
             <div className="flex items-center gap-3">
-              <img src={logo} alt="Super GRC" className="h-10" />
+              <img src="/logo-full.svg" alt="Super GRC" className="h-10" />
               <div>
                 <h1 className="text-[#151719]">Risk & Compliance Platform</h1>
                 <p className="text-[#151719]/60 text-sm">Enterprise Risk Management System</p>

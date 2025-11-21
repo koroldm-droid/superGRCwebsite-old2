@@ -13,7 +13,7 @@
 
 import { useState } from 'react';
 // Hero image for OG generator - using placeholder
-   const heroImage = "/logo-full.svg";
+const heroImage = "/logo-full.svg";
 
 export function OGImageGenerator() {
   const [showGuide, setShowGuide] = useState(false);

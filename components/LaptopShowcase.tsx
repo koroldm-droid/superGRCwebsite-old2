@@ -1,4 +1,5 @@
-import dashboardImage from 'figma:asset/3e5e83d7e429ac8276f75b54164bb0937b963cab.png';
+// Dashboard image - using placeholder for deployment
+const dashboardImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'%3E%3Crect fill='%23151719' width='1200' height='800'/%3E%3Ctext x='50%25' y='50%25' fill='%23CFE928' font-size='48' text-anchor='middle' dominant-baseline='middle'%3ESuper GRC Dashboard%3C/text%3E%3C/svg%3E";
 
 export function LaptopShowcase() {
   return (
